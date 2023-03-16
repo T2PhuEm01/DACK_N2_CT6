@@ -1,0 +1,409 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field (Actual Result),Custom field (Actual end),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Epic Link Summary,Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Result),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test Level),Custom field (Test Steps),Custom field (Testcase Result),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+NC18 - Verify Customer Password – Password First character can not have space,N2-90,10332,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 11:16 PM,13/Mar/23 11:16 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran
+
+name: phu
+
+email: [tranphu04@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: (space)phuem12
+
+re-enter the password: (space)phuem12",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"error message: ""password field First character can not have space""",,,,,0|i000ty:zzzzzzz,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Password field First character have space
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NC17 - Verify Customer Password – Password Code must have 5 Digits,N2-89,10331,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 11:12 PM,13/Mar/23 11:12 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran
+
+name: phu
+
+email: [tranphu04@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: phuem12
+
+re-enter the password: phuem12",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"error message: ""password field must be 5 digits or more""",,,,,0|i000ty:zzzzzzy,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Password field 4 digits
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NC16 - Verify Customer Password – Password Special characters are not allowed,N2-88,10330,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 11:07 PM,13/Mar/23 11:07 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran
+
+name: phu
+
+email: [tranphu04@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: MyPassword!@ 123
+
+re-enter the password: MyPassword!@ 123",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- The system displays the ""Invalid character"" error message on the user interface.
+- The system does not allow the operation and requires the user to re-enter the valid Client Password.",,,,,0|i000ty:zzzzzzx,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Password field an invalid string of characters, such as a string of special characters or a space.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NC15 - Verify Customer Password – Password Code must not be blank,N2-87,10329,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 11:05 PM,13/Mar/23 11:05 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran
+
+name: phu
+
+email: [tranphu04@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: (blank)
+
+re-enter the password: (blank)",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"error message ""Password must not be blank""",,,,,0|i000ty:zzzzzzv,,N2 Sprint 1,,,,,,,,Unit,"1) Do not enter a value in the Customer Password field.
+2) Click Register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NC14 - Verify Customer Password – Password Characters are not allowed,N2-86,10328,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:38 PM,13/Mar/23 10:38 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran
+
+name: phu
+
+email: [tranphu04@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: MyPassword!@ 123
+
+re-enter the password: MyPassword!@ 123",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- The system displays the ""Invalid character"" error message on the user interface.
+- The system does not allow the operation and requires the user to re-enter the valid Client Password.",,,,,0|i000ty:zzzzzzr,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Password field an invalid string of characters, such as a string of special characters or a space.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NC13 - Verify Customer Email – First character can not have space,N2-85,10327,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:26 PM,13/Mar/23 10:26 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran
+
+name: phu
+
+email: (First character have space)[tranphu03@gmail.com|mailto:tranphu051120011@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-152518.png|width=516,height=398!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:26 PM;62b44cfd5479e75d631d6f97;image-20230313-152518.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10015/image-20230313-152518.png,"You can still enter the first character with a space, but when you log in, the first space is automatically lost.",,,,,,,,,,BAN-8,New Customer,,,"error message ""Email First character cannot have space""",,,,,0|i000ty:zzzzzzi,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Email First character have space.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA12 - Verify Customer Email – Email ID is not valid,N2-84,10326,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:21 PM,13/Mar/23 10:21 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran
+
+name: phu
+
+email: tranphu2023@gmail
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-152001.png|width=485,height=393!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:21 PM;62b44cfd5479e75d631d6f97;image-20230313-152001.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10014/image-20230313-152001.png,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"error message ""Invalid Email"" ",,,,,0|i000ty:zzzzzz,,N2 Sprint 1,,,,,,,,Unit,"1) Enter an invalid email
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NA11 - Verify Customer Email – Customer Email must not be blank,N2-83,10325,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:18 PM,13/Mar/23 10:18 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran
+
+name: phu
+
+email: (blank)
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-151652.png|width=537,height=392!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:18 PM;62b44cfd5479e75d631d6f97;image-20230313-151652.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10013/image-20230313-151652.png,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"error message ""Email must not be blank""",,,,,0|i000ty:zzzzzy,,N2 Sprint 1,,,,,,,,Unit,"1) Blank the Customer Email field.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Pass,,,To Do
+NC10 - Verify Customer Name – First character cannot have space,N2-82,10324,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:13 PM,13/Mar/23 10:13 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran(First character have space)
+
+name: phu
+
+email: [tranphu02@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-151223.png|width=890,height=478!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:13 PM;62b44cfd5479e75d631d6f97;image-20230313-151223.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10012/image-20230313-151223.png,"You can still enter the first character with a space, but when you log in, the first space is automatically lost.",,,,,,,,,,BAN-8,New Customer,,,"error message ""Name First character cannot have space""",,,,,0|i000ty:zzzzzx,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Name First character have space.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA09 - Verify Customer Name – Customer name must not be blank,N2-81,10323,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:09 PM,13/Mar/23 10:09 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran
+
+name: (blank)
+
+email: [tranphu1@gmail.com|mailto:tranphu1@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-150847.png|width=925,height=471!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:09 PM;62b44cfd5479e75d631d6f97;image-20230313-150847.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10011/image-20230313-150847.png,can still register the normal,,,,,,,,,,BAN-8,New Customer,,,"error message ""Name must not be blank""",,,,,0|i000ty:zzzzzv,,N2 Sprint 1,,,,,,,,Unit,"1) Blank the Customer Name field.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA08 - Verify Customer Name – Special characters are not allowed,N2-80,10322,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:07 PM,13/Mar/23 10:07 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran
+
+name: phu. (dot)
+
+email: [tranphu05@gmail.com|mailto:tranphu05@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-150544.png|width=883,height=478!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:07 PM;62b44cfd5479e75d631d6f97;image-20230313-150544.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10010/image-20230313-150544.png,can still enter the normal Special characters,,,,,,,,,,BAN-8,New Customer,,,"error message ""Name cannot enter Special characters""",,,,,0|i000ty:zzzzzr,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Name field a Special characters.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA07 - Verify Customer Name – Numbers are not allowed,N2-79,10321,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 10:04 PM,13/Mar/23 10:04 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran
+
+name: phu1
+
+email: [tranphu051120011@gmail.com|mailto:tranphu051120011@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-150320.png|width=863,height=470!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 10:04 PM;62b44cfd5479e75d631d6f97;image-20230313-150320.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10009/image-20230313-150320.png,can still enter the normal number,,,,,,,,,,BAN-8,New Customer,,,"error message ""Name cannot enter number""",,,,,0|i000ty:zzzzzi,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer Name field a number.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA05 - Verify Customer SurName – First character cannot have space,N2-78,10320,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 9:48 PM,13/Mar/23 11:18 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname:  tran(First character have space)
+
+name: phu
+
+email: [tranphu01@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-145002.png|width=966,height=473!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 9:50 PM;62b44cfd5479e75d631d6f97;image-20230313-145002.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10008/image-20230313-145002.png,"You can still enter the first character with a space, but when you log in, the first space is automatically lost.",,,,,,,,,,BAN-8,New Customer,,,"error message ""surname First character cannot have space""",,,,,0|i000ty:zzzzy,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer SurName First character have space.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA04 - Verify Customer SurName – Customer name must not be blank,N2-77,10319,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 9:42 PM,13/Mar/23 11:18 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: (blank)
+
+name: phu
+
+email: [tranphu0@gmail.com|mailto:tranphu0@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-144349.png|width=880,height=470!",,,,,,,,,,,,,,13/Mar/23 9:44 PM;62b44cfd5479e75d631d6f97;image-20230313-144349.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10007/image-20230313-144349.png,can still register the normal,,,,,,,,,,BAN-8,New Customer,,,"error message ""surname must not be blank""",,,,,0|i000ty:zzzzx,,N2 Sprint 1,,,,,,,,Unit,"1) Blank the Customer SurName field.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA03 - Verify Customer SurName – Special characters are not allowed,N2-76,10318,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 9:37 PM,13/Mar/23 11:18 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran@
+
+name: phu
+
+email: [tranphu0511@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-143842.png|width=866,height=468!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 9:39 PM;62b44cfd5479e75d631d6f97;image-20230313-143842.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10006/image-20230313-143842.png,can still enter the normal Special characters,,,,,,,,,,BAN-8,New Customer,,,"error message ""surname cannot enter Special characters""",,,,,0|i000ty:zzzzv,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer SurName field a Special characters.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA02 - Verify Customer SurName – Numbers are not allowed,N2-75,10317,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 9:14 PM,13/Mar/23 11:18 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"surname: tran1
+
+name: phu
+
+email: [tranphu3@gmail.com|mailto:tranphu3@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-143151.png|width=872,height=474!",,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,13/Mar/23 9:34 PM;62b44cfd5479e75d631d6f97;image-20230313-143151.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10005/image-20230313-143151.png,can still enter the normal number,,,,,,,,,,BAN-8,New Customer,,,"error message ""surname cannot enter number""",,,,,0|i000ty:zzzzr,,N2 Sprint 1,,,,,,,,Unit,"1) Enter in the Customer SurName field a number.
+2) Press the confirm button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+NA03 - Verify Customer SurName – Numbers are not allowed,N2-74,10316,Story,Done,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,Done,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,13/Mar/23 9:12 PM,13/Mar/23 9:12 PM,15/Mar/23 9:27 PM,13/Mar/23 9:12 PM,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000ty:zzzzi,,,,,,,,,,,,,,,Done
+SC - verify to the top- after clicking on the red arrow the page will run to the top,N2-73,10315,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:54 PM,13/Mar/23 11:33 PM,15/Mar/23 9:27 PM,,,0,tothetop,after clicking on the red arrow the page will run to the top,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,trang  chạy lên trên,,,,,,,,,,,,,,trang sẽ chạy lên trên,,,,,0|i000yn:,,N2 Sprint 3,,,,,,,,Integration,nhấn vào hình mũi tên lên,Pass,,,To Do
+SC - verify contact - after clicking on the social network icons on the right will contact the admin that way,N2-72,10314,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:51 PM,13/Mar/23 11:33 PM,15/Mar/23 9:27 PM,,,0,contact,after clicking on the social network icons on the right will contact the admin that way,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,liên hệ với người bán theo cách đó ,,,,,,,,,,,,,,liên hệ với người bán theo cách đó ,,,,,0|i000yf:,,N2 Sprint 3,,,,,,,,Integration,nhấn vào cáic icon mạng xã hội ,Pass,,,To Do
+SC - verify contact - after clicking on the phone picture on the page will call admin,N2-71,10313,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:47 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,contact,after clicking on the phone picture on the page will call admin,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : liên hệ cho admin ,,,,,,,,,,,,,,system display : liên hệ cho admin ,,,,,0|i000ty:zzzz,,N2 Sprint 3,,,,,,,,Integration,nhấn vào hình hiện thoại ,Pass,,,To Do
+"SC - verify shopping cart - if you press continue to buy, you will return to the homepage",N2-67,10309,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:36 PM,13/Mar/23 11:33 PM,15/Mar/23 9:27 PM,,,0,shoppingcart,"if you press continue to buy, you will return to the homepage",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : ' trở về trang chủ ' ,,,,,,,,,,,,,,system display : ' trở về trang chủ ' ,,,,,0|i000xz:,,N2 Sprint 3,,,,,,,,Integration,click vào tiếp tục mua hàng ,Pass,,,To Do
+"SC - verify payment - if you leave the boxes blank in the payment, a message will appear that you need to enter all information",N2-66,10308,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:33 PM,13/Mar/23 11:33 PM,15/Mar/23 9:27 PM,,,0,payment,"if you leave the boxes blank in the payment, a message will appear that you need to enter all information",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,"system display ' vui lòng nhập tỉnh, quận huyện, phường xã'",,,,,,,,,,,,,,system display ' bạn cần nhập đầy đủ thông tin ',,,,,0|i000xr:,,N2 Sprint 3,,,,,,,,Integration,bỏ trống họ tên và số điện thoại ,Fail,,,To Do
+IPF28 - Verify If correcting the number of products in the cart,N2-65,10307,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:31 PM,06/Jan/23 4:31 PM,15/Mar/23 9:27 PM,,,0,EditProduct,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,"- The number of products changes
+- The total amount also changes according to the quantity (Product price * quantity)",,,,,,,,,,,,,,"- The number of products changes
+- The total amount also changes according to the quantity (Product price * quantity)",,,,,0|i000ty:zzzv,,N2 Sprint 2,,,,,,,,Integration,1) Click to edit the number of products in the cart,Pass,,,To Do
+SC - verify payment - clicking on the payment box will go to the payment page for the user to enter full shipping information,N2-64,10306,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:29 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,payment,clicking on the payment box will go to the payment page for the user to enter full shipping information,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : ' đi đến trang thanh toán để nhập thông tin ',,,,,,,,,,,,,,system display : ' đi đến trang thanh toán để nhập thông tin ',,,,,0|i000xj:,,N2 Sprint 3,,,,,,,,Integration,click vào ô thanh toán,Pass,,,To Do
+IPF27 - Verify If you click on the button to delete the product in the cart,N2-63,10305,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:28 PM,06/Jan/23 4:28 PM,15/Mar/23 9:27 PM,,,0,DeleteProducts,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- the product to be removed has been removed from the cart,,,,,,,,,,,,,,- the product to be removed has been removed from the cart,,,,,0|i000ty:zzzr,,N2 Sprint 2,,,,,,,,Integration,1) press the button to delete the product in the cart,Pass,,,To Do
+"SC -  verify shopping cart - if you click to change the quantity of each product or add and delete products in the cart, the total amount will be updated",N2-62,10304,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:25 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,shoppingcart," if you click to change the quantity of each product or add and delete products in the cart, the total amount will be updated",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : ' tổng tiền thay đổi ',,,,,,,,,,,,,,system display : ' tổng tiền thay đổi ',,,,,0|i000xb:,,N2 Sprint 3,,,,,,,,Integration,click vào ô thay đổi số lượng ,Pass,,,To Do
+IPF26 - Verify Add Product If the products are the same,N2-61,10303,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:24 PM,06/Jan/23 4:24 PM,15/Mar/23 9:27 PM,,,0,addcart,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,Increase the number of products in the database and cart,,,,,,,,,,,,,,Increase the number of products in the database and cart,,,,,0|i000ty:zzzi,,N2 Sprint 2,,,,,,,,Integration,1) Add to cart 2 or more identical products,Pass,,,To Do
+SC - verify shopping cart - clicking on the trash will delete that product in the cart,N2-60,10302,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:22 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,shoppingcart, clicking on the trash will delete that product in the cart,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: ' sản phẩm bị xóa',,,,,,,,,,,,,,system display: ' sản phẩm bị xóa',,,,,0|i000ts:,,N2 Sprint 3,,,,,,,,Integration,click vào hình thùng rác,Pass,,,To Do
+IPF25 - Verify If add products to cart Check display confirm before adding and transferring data to database,N2-59,10301,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:20 PM,06/Jan/23 5:25 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,"- Show message added successfully
+- Product added to database and cart page",,,,,,,,,,,,,,"- Show message added successfully
+- Product added to database and cart page",,,,,0|i000ty:zzz,,N2 Sprint 2,,,,,,,,Integration,"1) Select the product you want to add to cart
+2) Press the add to cart button",Pass,,,To Do
+NA06 - Verify Customer Name - Customer Name is required,N2-58,10300,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Kim Ngân Phan,62995e9b2eafc9006eed5daf,06/Jan/23 4:17 PM,13/Mar/23 11:17 PM,15/Mar/23 9:27 PM,,,0,NewAccount,"This testcase is designed to test the feature that requires entering customer information, namely *Customer Name* when performing some operations on the system. This helps to ensure that customer information is fully and accurately updated in the system.
+
+!image-20230313-135836.png|width=531,height=398!",,Kim Ngân Phan,,62995e9b2eafc9006eed5daf,,,,,,,,,,13/Mar/23 9:02 PM;62b44cfd5479e75d631d6f97;image-20230313-135836.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10004/image-20230313-135836.png,- Can still register the normal,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Customer Name is required""",,,,,0|i000ty:zzzzz,,N2 Sprint 1,,,,,,,,Unit,"1) Enter customer information without entering Customer Name
+2) Click button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+SC - verify shopping cart - after clicking on cart logo or word go to cart page,N2-57,10299,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:17 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,shoppingcart, after clicking on cart logo or word go to cart page,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: 'đi vào trang giỏ hàng',,,,,,,,,,,,,,system display: 'đi vào trang giỏ hàng',,,,,0|i000wv:,,N2 Sprint 3,,,,,,,,Integration,b1: click vào logo và chữ giỏ hàng,Pass,,,To Do
+SC - verify buy now - after clicking buy now the product will be added to the cart and go to the cart page,N2-55,10297,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:14 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,buynow,after clicking buy now the product will be added to the cart and go to the cart page,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: đến trang thanh toán và sản phẩm được thêm vô giỏ hàng ,,,,,,,,,,,,,,system display: đến trang thanh toán và sản phẩm được thêm vô giỏ hàng ,,,,,0|i000wn:,,N2 Sprint 3,,,,,,,,Integration,b1: click mua ngay,Pass,,,To Do
+IPF24 - Verify If enter search full product name,N2-52,10294,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:10 PM,06/Jan/23 5:29 PM,15/Mar/23 9:27 PM,,,0,,Vd search: Laptop HP Pavilion 15-eg1037TU,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,Only 1 product is displayed,,,,,,,,,,,,,,Only 1 product is displayed,,,,,0|i000ty:zzu,,N2 Sprint 2,,,,,,,,Integration,"1) Enter the full name of a product
+2) Press search",Pass,,,To Do
+IPF23 - Verify If enter search only one word in database,N2-51,10293,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:09 PM,06/Jan/23 5:30 PM,15/Mar/23 9:27 PM,,,0,,vd search: Acer,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,Show all products containing the searched keyword,,,,,,,,,,,,,,Show all products containing the searched keyword,,,,,0|i000ty:zzqzzr,,N2 Sprint 2,,,,,,,,Integration,"1) Enter a search of just 1 word in the product name
+2) Click search",Pass,,,To Do
+IPF22 - Verify If enter search with special characters or characters not in the database,N2-50,10292,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:07 PM,06/Jan/23 5:34 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,"Error message: ""No content found with keyword ""..."" . Please search with another keyword.""",,,,,,,,,,,,,,"Error message: ""No content found with keyword ""..."" . Please search with another keyword.""",,,,,0|i000ty:zzqzzi,,N2 Sprint 2,,,,,,,,Integration,"1) Enter a search with a special character or a keyword that is not in the product database
+2) Click search search",Pass,,,To Do
+NA01 - Verify Customer SurName- Customer Surname is required,N2-49,10291,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Kim Ngân Phan,62995e9b2eafc9006eed5daf,06/Jan/23 4:07 PM,13/Mar/23 9:59 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,"This testcase is designed to test the feature that requires entering customer information, namely *Customer Surname* when performing some operations on the system. This helps to ensure that customer information is fully and accurately updated in the system.
+
+surname:  (blank)
+
+name: phu
+
+email: [tranphu0@gmail.com|mailto:tranphu0511@gmail.com]
+
+password: phu12
+
+re-enter the password: phu12
+
+!image-20230313-135836.png|width=531,height=398!",,Kim Ngân Phan,Phú Em Trần Thanh,62995e9b2eafc9006eed5daf,62b44cfd5479e75d631d6f97,,,,,,,,,13/Mar/23 8:58 PM;62b44cfd5479e75d631d6f97;image-20230313-135836.png;https://nguyenthanhluan.atlassian.net/secure/attachment/10003/image-20230313-135836.png,- Can still register the normal,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""The customer surname is required""",,,,,0|i000ty:zzqzz,,N2 Sprint 1,,,,,,,,Unit,"1) Enter customer information without entering Customer Surname
+2) Click button register
+3) Check the error message displayed on the user interface.",Fail,,,To Do
+"SC -  verify add cart - if you click add to cart, the message has been added to the cart and the product has been added",N2-48,10290,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:06 PM,13/Mar/23 11:35 PM,15/Mar/23 9:27 PM,,,0,addcart,"if you click add to cart, the message has been added to the cart and the product has been added",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : 'cảm ơn bạn sản phẩm đã được thêm vào giỏ hàng thành công ',,,,,,,,,,,,,,system display : 'sản phẩm đã được thêm vào giỏ hàng' ,,,,,0|i000ty:zs,,N2 Sprint 3,,,,,,,,,b1: click thêm vào giỏ hàng,Pass,,,To Do
+IPF21 - Verify If Password entered should does not exist in the database,N2-47,10289,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:05 PM,14/Mar/23 5:41 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,"- Error message: ""Invalid login information.""",,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Invalid login information.""",,,,,0|i000ty:zzqzw,,N2 Sprint 2,,,,,,,,Integration,"1) Enter the wrong password with the registered password
+2) Click login",Pass,,,To Do
+IPF20 - Verify If Account Email entered should does not exist in the database,N2-46,10288,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 4:04 PM,14/Mar/23 5:42 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,"- Error message: ""Invalid login information.""",,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Invalid login information.""",,,,,0|i000ty:zzqzx,,N2 Sprint 2,,,,,,,,Integration,"1) Enter the wrong email with the registered email 
+2) Click login",Pass,,,To Do
+"SC - verify compare - after pressing the compare button, the 2 products in the cart will be compared",N2-45,10287,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 4:02 PM,13/Mar/23 11:35 PM,15/Mar/23 9:27 PM,,,0,compare," after pressing the compare button, the 2 products in the cart will be compared",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system dislpay 'Show comparison information of 2 products,,,,,,,,,,,,,,"system dislpay 'Show comparison information of 2 products
+",,,,,0|i000ty:zt,,N2 Sprint 3,,,,,,,,,b1: click so sánh,Pass,,,To Do
+"SC - verify compare - if you add 3 compare products, it says there can only be 2 compare products",N2-43,10285,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:56 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,compare," if you add 3 compare products, it says there can only be 2 compare products",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : ' remove 2nd product and add new product',,,,,,,,,,,,,,system display 'Only 2 products can be compared',,,,,0|i000vr:,,N2 Sprint 3,,,,,,,,Integration,b1 : click vào thêm vào danh sách so sánh của sản phẩm,Fail,,,To Do
+IPF19 - Verify If Password  - The Re-enter password field should be the same as the password field above,N2-42,10284,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:56 PM,14/Mar/23 5:41 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"Error message: ""The password re-enter field is not the same as the password field above""",,,,,0|i000ty:zzqzv,,N2 Sprint 2,,,,,,,,Integration,"1) Enter the password re-enter field that is not the same as the password field above
+2) click register",Fail,,,To Do
+IPF18 - Verify If Password - First character can not have space,N2-41,10283,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:56 PM,14/Mar/23 5:41 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"Error message: ""The first letter of the password must not contain a space""",,,,,0|i000ty:zzqzr,,N2 Sprint 2,,,,,,,,Integration,"1) Enter a password with a space in the first letter
+2) Click register",Fail,,,To Do
+IPF17 - Verify If Password  must have 5 Digits,N2-40,10282,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:55 PM,14/Mar/23 5:41 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""required Password must be 6 digits""",,,,,0|i000ty:zzqzi,,N2 Sprint 2,,,,,,,,Integration,1) Enter a password less than 5 characters,Fail,,,To Do
+IPF16 - Verify If Password – Special characters are not allowed,N2-39,10281,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:55 PM,14/Mar/23 5:41 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Not enter Special characters are not allowed""",,,,,0|i000ty:zzqz,,N2 Sprint 2,,,,,,,,Integration,1) enter Special characters are not allowed,Fail,,,To Do
+IPF15 - Verify If Password must not be blank,N2-38,10280,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:54 PM,14/Mar/23 5:40 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Password field cannot be empty""",,,,,0|i000ty:zzqy,,N2 Sprint 2,,,,,,,,Integration,"1) Leave the password blank
+2) Click register",Fail,,,To Do
+SC - verify compare - after clicking the plus button compare the product is added to the comparison list,N2-37,10279,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:53 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,compare,after clicking the plus button compare the product is added to the comparison list,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : 'Products added to compare',,,,,,,,,,,,,,system display : 'Products added to compare',,,,,0|i000vb:,,N2 Sprint 3,,,,,,,,Integration,b1: click vào thêm vào so sánh,Pass,,,To Do
+IPF14 - Verify If Password - Characters are not allowed,N2-36,10278,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:52 PM,14/Mar/23 5:40 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Password field cannot enter unauthorized characters""",,,,,0|i000ty:zzqx,,N2 Sprint 2,,,,,,,,Integration,"1) Enter unauthorized characters in the password
+2) click register",Fail,,,To Do
+IPF13 - Verify If Email first character can not have space,N2-35,10277,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:52 PM,14/Mar/23 5:39 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""The first character email field cannot be empty""",,,,,0|i000ty:zzqv,,N2 Sprint 2,,,,,,,,Integration,"1) Enter an email whose first character is a space
+2) Click register",Fail,,,To Do
+IPF12 - Verify If Email is not valid,N2-34,10276,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:51 PM,14/Mar/23 5:39 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""The correct email field is required""",,,,,0|i000ty:zzqr,,N2 Sprint 2,,,,,,,,Integration,"1) Enter email in incorrect format
+2) click register",Fail,,,To Do
+IPF11 - Verify If Email must not be blank,N2-33,10275,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:51 PM,14/Mar/23 5:39 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Email field cannot be empty""",,,,,0|i000ty:zzqi,,N2 Sprint 2,,,,,,,,Integration,"1) Leave the email field blank
+2) Click register",Fail,,,To Do
+"SC -verify review - if you leave the title of the review blank and the content of the review is displayed, please fill in the information",N2-32,10274,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:49 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,review,"if you leave the title of the review blank and the content of the review is displayed, please fill in the information
+
+data test:
+
+sdt:0348455990
+
+tiêu đề:
+
+nội dung:",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,"system display:""Please enter your review title!
+Vui lòng nhập nội dung đánh giá của bạn! ' ",,,,,,,,,,,,,,system display : 'Please enter title and content',,,,,0|i000v3:,,N2 Sprint 3,,,,,,,,Integration,"b1: click vào viết đánh giá
+b2: enter số điện thoại
+b3: để trông tiêu đề
+b4 : để trống nội dung",Pass,,,To Do
+IPF10 - Verify If Customer Name - First character cannot have space,N2-31,10273,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:49 PM,14/Mar/23 5:39 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""customer name cannot be empty""",,,,,0|i000ty:zzq,,N2 Sprint 2,,,,,,,,Integration,1) leave the first character blank,Fail,,,To Do
+IPF09 - Verify If Customer Name - Customer name must not be blank,N2-30,10272,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:48 PM,14/Mar/23 5:39 PM,15/Mar/23 9:27 PM,,,0,EditCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Customer name cannot be empty""",,,,,0|i000ty:zzp,,N2 Sprint 2,,,,,,,,Integration,1) Leave customer name blank,Fail,,,To Do
+IPF08 - Verify If Customer Name – Special characters are not allowed,N2-28,10270,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:47 PM,14/Mar/23 5:39 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""No special characters can be enter customer surname""",,,,,0|i000ty:zzo,,N2 Sprint 2,,,,,,,,Integration,"1) Enter special characters in the customer name field
+2) click register",Fail,,,To Do
+IPF07 - Verify If Customer Name – Numbers are not allowed,N2-27,10269,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:46 PM,14/Mar/23 5:38 PM,15/Mar/23 9:27 PM,,,0,EditCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""customer name cannot be entered number""",,,,,0|i000ty:zzm,,N2 Sprint 2,,,,,,,,Integration,"1) enter the number in the customer name
+2) click register",Fail,,,To Do
+IPF06 - Verify If Customer Name - Customer Name is required,N2-26,10268,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:45 PM,14/Mar/23 5:38 PM,15/Mar/23 9:27 PM,,,0,,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""customer name is required""",,,,,0|i000ty:zzl,,N2 Sprint 2,,,,,,,,Integration,"1) do not enter customer name
+2) click register",Fail,,,To Do
+IPF05 - Verify If Customer Surname - First character cannot have space,N2-25,10267,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:44 PM,14/Mar/23 5:38 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""The first character must not have a space""",,,,,0|i000ty:zzki,,N2 Sprint 2,,,,,,,,Integration,1) Enter the first character space,Fail,,,To Do
+IPF04 - Verify If Customer Surname be blank,N2-24,10266,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:43 PM,13/Mar/23 11:20 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""Customer Surname cannot be blank""",,,,,0|i000ty:zzk,,N2 Sprint 2,,,,,,,,Integration,1) Leave blank customer surname,Fail,,,To Do
+SC -verify review - after clicking on the review will show the rating sheet for the user to enter,N2-23,10265,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:42 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,,after clicking on the review will show the rating sheet for the user to enter,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: Show comment page,,,,,,,,,,,,,,system display: Show comment page,,,,,0|i000vv:,,N2 Sprint 3,,,,,,,,Integration,b1: click viết đánh giá,Pass,,,To Do
+IPF03 - Verify if Customer Surname have Special characters are not allowed,N2-22,10264,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:40 PM,13/Mar/23 11:20 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""No special characters can be enter customer surname""",,,,,0|i000ty:zzi,,N2 Sprint 2,,,,,,,,Integration,"1) Enter special characters in the customer surname field
+2) click register",Fail,,,To Do
+IPF02 - Verify If Customer Surname is enter Numbers,N2-20,10262,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:38 PM,06/Jan/23 4:53 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""customer surname cannot be entered number""",,,,,0|i000ty:zz,,N2 Sprint 2,,,,,,,,Integration,"1) enter the number in the customer surname
+2) click register",Fail,,,To Do
+SC - verify details - after clicking on the product image the product image will enlarge,N2-19,10261,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:37 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,details, after clicking on the product image the product image will enlarge,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display:Enlarge product image,,,,,,,,,,,,,,system display:Enlarge product image,,,,,0|i000tt:,,N2 Sprint 3,,,,,,,,Integration,b1: click vào hình sản phẩm,Pass,,,To Do
+IPF01 - Verify If not enter Customer Surname system displays an error.,N2-18,10260,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,Phú Em Trần Thanh,62b44cfd5479e75d631d6f97,06/Jan/23 3:36 PM,06/Jan/23 4:37 PM,15/Mar/23 9:27 PM,,,0,NewCustomer,,,Phú Em Trần Thanh,,62b44cfd5479e75d631d6f97,,,,,,,,,,,- Still check but not showing error message,,,,,,,,,,BAN-8,New Customer,,,"- Error message: ""The customer surname is required""",,,,,0|i000ty:zx,,N2 Sprint 2,,,,,,,,Integration,"1) don't enter Customer Surname
+2) Click register",Fail,,,To Do
+SC- verify detailed information - click on the product to display detailed information of each product,N2-17,10259,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:35 PM,13/Mar/23 11:34 PM,15/Mar/23 9:27 PM,,,0,details,click on the product to display detailed information of each product,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: Show product information,,,,,,,,,,,,,,system display: Show product information,,,,,0|i000ty:zv,,N2 Sprint 3,,,,,,,,Integration,b1: click sản phẩm ,Pass,,,To Do
+SC - verify product catalog - click on the product categories to display full product information of each category,N2-16,10258,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:32 PM,13/Mar/23 11:35 PM,15/Mar/23 9:27 PM,,,0,productcatalog,click on the product categories to display full product information of each category,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: 'Show the products of the catalog',,,,,,,,,,,,,,system display: 'Show the products of the catalog',,,,,0|i000ty:zr,,N2 Sprint 3,,,,,,,,Integration,b1: đưa chuột vào các danh mục của danh mục sản phẩm,Pass,,,To Do
+SC - Verify logo - After clicking on the logo will return to the homepage,N2-14,10256,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:27 PM,13/Mar/23 11:33 PM,15/Mar/23 9:27 PM,,,0,logo,after clicking on the logo will return to the homepage,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: 'back to home page',,,,,,,,,,,,,,system display: 'back to home page',,,,,0|i000ty:zi,,N2 Sprint 3,,,,,,,,Integration,"b1 : click logo
+",Pass,,,To Do
+SC - Verify change password - After clicking change password to change password page,N2-13,10255,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:25 PM,13/Mar/23 11:32 PM,15/Mar/23 9:27 PM,,,0,ChangePassword,after clicking change password to change password page,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,,,,,,,,,,,BAN-7,Change Password,,,system display : 'change Password',,,,,0|i000ty:z,,N2 Sprint 3,,,,,,,,Integration,,Skip,,,To Do
+"SC - Verify forgot password - If you enter the wrong email, the email message is invalid",N2-12,10254,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:21 PM,13/Mar/23 11:32 PM,15/Mar/23 9:27 PM,,,0,forgotpassword," if you enter the wrong email, the email message is invalid
+
+data test:
+
+email: ngocduong123nhoxxnhoxx@gmail.",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display:'rerun the page',,,,,,,,,,,,,,system display: 'invalid email',,,,,0|i000ty:y,,N2 Sprint 3,,,,,,,,Integration,"b1: enter email.com
+b2:enter gửi",Fail,,,To Do
+SC - Verify forgot password - If you click email in the email box the password will be sent to your email,N2-11,10253,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:09 PM,13/Mar/23 11:32 PM,15/Mar/23 9:27 PM,,,0,forgotpassword," if you click email in the email box the password will be sent to your email
+
+data test:
+
+[email:ngocduong123nhox@gmail.com|mailto:email:ngocduong123nhox@gmail.com]",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: 'send password to email',,,,,,,,,,,,,,system display: 'send password to email',,,,,0|i000ty:x,,N2 Sprint 3,,,,,,,,Integration,"b1: emter email
+b2: enter gửi",Pass,,,To Do
+SC-  Verify login - If you enter all the information after clicking log in to the information page or home page,N2-10,10252,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:05 PM,13/Mar/23 11:32 PM,15/Mar/23 9:27 PM,,,0,Login,"if you enter all the information after clicking log in to the information page or home page
+
+testdata:
+
+[email:ngocduong123nhox@gmail.com|mailto:email:ngocduong123nhox@gmail.com]
+
+mk:123456",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: 'back to home page',,,,,,,,,,,,,,system display: 'back to home page',,,,,0|i000ty:v,,N2 Sprint 3,,,,,,,,Integration,"b1: enter email 
+b2 : enter mật khẩu
+b3: enter đăng nhập",Pass,,,To Do
+"SC - Verify login - If you re-enter the password incorrectly, the message is incorrect",N2-9,10251,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 3:01 PM,13/Mar/23 11:32 PM,15/Mar/23 9:27 PM,,,0,Login," If you re-enter the password incorrectly, the message is incorrect
+
+data test:
+
+
+
+[emai:ngocduong123nhox@gmail.com|mailto:emai:ngocduong123nhox@gmail.com]
+
+mk:12345",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display : 'Invalid login information. ',,,,,,,,,,,,,,system display:'Incorrect account or password',,,,,0|i000ty:r,,N2 Sprint 3,,,,,,,,Integration,"b1: enter email 
+b2 : enter mật khẩu
+b3: enter đăng nhập",Pass,,,To Do
+SM - Verify New Account - If re-entering password is not the same as re-entering incorrect password message,N2-7,10249,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 2:54 PM,13/Mar/23 11:29 PM,15/Mar/23 9:27 PM,,,0,NewAccount," If re-entering password is not the same as re-entering password message
+
+data test:
+
+họ: tran
+
+tên:duong
+
+[emai:ngocduong123nhox@gmail.com|mailto:emai:ngocduong123nhox@gmail.com]
+
+mk:123456
+
+nlmk:",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display:'Re-entered password is incorrect',,,,,,,,,,BAN-9,New Account,,,system display:'Re-entered password is incorrect',,,,,0|i000ty:i,,N2 Sprint 3,,,,,,,,Integration,"b1:enter their trust
+b2:enter trust name
+B3:Fill in your email
+b4: Fill in the password
+b5:Re-enter password
+b6:  đăng ký",Pass,,,To Do
+SM - Verify new account - If email already used shows message,N2-6,10248,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 2:48 PM,13/Mar/23 11:29 PM,15/Mar/23 9:27 PM,,,0,NewAccount,"SM - verify new account if email already used shows message
+
+data test:
+
+họ: tran
+
+tên:nam
+
+[emai:|mailto:emai:ngocduong123nhox@gmail.com] ngocduong123nhox@gmail.com
+
+mk:654321",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,systemplay: redo the page,,,,,,,,,,BAN-9,New Account,,,system display:'email has been used',,,,,0|i000ty:,,N2 Sprint 3,,,,,,,,Integration,"b1:enter their trust
+b2:enter trust name
+B3:emter email
+b4: Fill in the password
+b5:Re-enter password
+b6:  đăng ký",Fail,,,To Do
+"SM - Verify new account - If you leave the registration information blank, the system will notify you that it is not working",N2-5,10247,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 2:43 PM,13/Mar/23 11:28 PM,15/Mar/23 9:27 PM,,,0,NewAccount,"if you leave the registration information blank, the system will notify you that it is not working
+
+data test:
+
+họ: tran
+
+tên:duong
+
+[emai:|mailto:emai:ngocduong123nhox@gmail.com]
+
+mk:123456",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,systemplay: redo the page,,,,,,,,,,BAN-9,New Account,,,system play: 'information cannot be left blank',,,,,0|i000tx:,,N2 Sprint 3,,,,,,,,Integration,"b1:enter their trust
+b2:enter trust name
+B3:leave email blank
+b4: Fill in the password
+b5:Re-enter password
+b6:  đăng ký",Fail,,,To Do
+"SM - Verify new account - After entering all the information on the registration page, click register to display your account information",N2-3,10245,Story,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,06/Jan/23 2:10 PM,13/Mar/23 11:28 PM,15/Mar/23 9:27 PM,,,0,NewAccount,"After entering all the information on the registration page, click register to display your account information
+
+data test:
+
+họ: tran
+
+tên:duong
+
+[emai:ngocduong123nhox@gmail.com|mailto:emai:ngocduong123nhox@gmail.com]
+
+mk:123456
+
+nlmk:123456",,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,system display: show information page,,,,,,,,,,BAN-9,New Account,,,system display: show information page,,,,,0|i000tv:,,N2 Sprint 3,,,,,,,,Integration,"b1:enter their trust
+b2:enter trust name
+B3:Fill in your email
+b4: Fill in the password
+b5:Re-enter password
+b6:  đăng ký",Pass,,,To Do
+alo,N2-1,10243,Task,To Do,N2,N2_CD21CT6,software,Luân Nguyễn,629ea81a4e1a640070c2c30a,,Medium,,,,ngocduong123nhox,62995be6a0eafd0069e9a3ab,ngocduong123nhox,62995be6a0eafd0069e9a3ab,30/Dec/22 4:35 PM,30/Dec/22 4:35 PM,30/Dec/22 4:36 PM,,,0,,,,ngocduong123nhox,,62995be6a0eafd0069e9a3ab,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000tz:,,,,,,,,,,,,,,,To Do
